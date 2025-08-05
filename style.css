@@ -1,0 +1,58 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  height: 100%;
+  overflow: hidden;
+}
+
+.background {
+  background-image: url('https://i.postimg.cc/gjng80wr/IMG-20250609-190300-200.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.container {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid white;
+  margin-bottom: 20px;
+}
+
+.discord-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #7289da;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.discord-btn:hover {
+  background-color: #5b6eae;
+}
+
+.visitor-count {
+  margin-top: 20px;
+  font-size: 16px;
+}
